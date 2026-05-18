@@ -1,0 +1,32 @@
+# Ignore all files by default
+*
+!*/
+
+# Include portfolio folder
+!portfolio\ images\ and\ videos/
+portfolio\ images\ and\ videos/*
+!portfolio\ images\ and\ videos/*.jpg
+!portfolio\ images\ and\ videos/*.jpeg
+!portfolio\ images\ and\ videos/*.png
+!portfolio\ images\ and\ videos/*.gif
+!portfolio\ images\ and\ videos/*.mp4
+!portfolio\ images\ and\ videos/*.webm
+!portfolio\ images\ and\ videos/*.mov
+
+# But include these portfolio files
+!.gitignore
+!index.html
+!*.jpg
+!*.jpeg
+!*.png
+!*.gif
+!*.mp4
+!*.webm
+!*.mov
+
+# Ignore node_modules and other directories
+node_modules/
+.env
+.DS_Store
+desktop.ini
+Thumbs.db
